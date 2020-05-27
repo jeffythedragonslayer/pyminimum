@@ -1,5 +1,5 @@
 all:
-	g++ segfaultcity.cpp -o segfaultcity.exe
+	g++ segfaultcity.cpp -g -o segfaultcity.exe
 
 clean:
 	rm segfaultcity.exe	
